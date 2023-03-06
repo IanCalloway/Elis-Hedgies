@@ -1,0 +1,285 @@
+.temp-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.temp-who-cont {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #ed8e01;
+  align-items: center;
+  padding-top: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: flex-start;
+}
+.temp-name {
+  font-size: 64px;
+  font-family: "carm";
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+.temp-image {
+  width: 30%;
+  border-radius: 20px;
+  height: auto;
+  object-fit: cover;
+  transition: .3s;
+}
+.temp-image:hover{
+  transform: scale(1.03);
+}
+.temp-about-con {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #ed8e01;
+  align-items: center;
+  padding-top: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: flex-start;
+}
+.temp-about-me {
+  font-size: 48px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: center;
+}
+.temp-about-me-testo {
+  font-size: 24px;
+  max-width: 550px;
+  margin-top: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+/*Mess of CSS that could be way simpler but works :)
+(Now realzing I could have used four text classes for 
+the same effect but is already done so im keeping it) */
+
+.temp-other-info {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #ed8e01;
+  align-items: flex-start;
+  padding-top: 32px;
+  flex-direction: row;
+  padding-bottom: 32px;
+  justify-content: center;
+}
+.temp-o-i-l {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.temp-container01 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.temp-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.temp-text {
+  font-size: 32px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: left;
+  margin-left: 32px;
+}
+.temp-text01 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  margin-top: 16px;
+  text-align: left;
+  margin-left: 32px;
+}
+.temp-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.temp-text02 {
+  font-size: 32px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: left;
+  margin-left: 32px;
+}
+.temp-text03 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  margin-top: 16px;
+  text-align: left;
+  margin-left: 32px;
+}
+.temp-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.temp-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  margin-right: 60px;
+  flex-direction: column;
+}
+.temp-text04 {
+  font-size: 32px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: left;
+  margin-left: 32px;
+}
+.temp-text05 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  margin-top: 16px;
+  text-align: left;
+  margin-left: 32px;
+}
+.temp-o-i-r {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.temp-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.temp-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.temp-text06 {
+  font-size: 32px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: right;
+  margin-right: 32px;
+}
+.temp-text07 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  margin-top: 16px;
+  text-align: right;
+  margin-right: 32px;
+}
+.temp-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.temp-text08 {
+  font-size: 32px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: right;
+  margin-right: 32px;
+}
+.temp-text09 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  margin-top: 16px;
+  text-align: right;
+  margin-right: 32px;
+}
+.temp-container09 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.temp-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  margin-left: 60px;
+  flex-direction: column;
+}
+.temp-text10 {
+  font-size: 32px;
+  font-family: "carm";
+  font-weight: 100;
+  text-align: right;
+  margin-right: 32px;
+}
+.temp-text11 {
+  font-size: 24px;
+  font-family: arial, sans-serif;
+  margin-top: 16px;
+  text-align: right;
+  margin-right: 32px;
+}
+.temp-image {
+  width: 30%;
+  border-radius: 20px;
+  height: auto;
+  object-fit: cover;
+  transition: .3s;
+}
+@media(max-width: 990px){
+  .temp-image {
+    width: 70%;
+    border-radius: 20px;
+    height: auto;
+    object-fit: cover;
+    transition: .3s;
+  }
+}
+/*Mess of CSS that could be way simpler but works :) is now over :D*/

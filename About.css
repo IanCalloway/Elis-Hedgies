@@ -1,0 +1,121 @@
+.about-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-testimonial {
+  width: 100%;
+  display: flex;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-text {
+  font-size: 70px;
+  max-width: 600px;
+  margin-top: 16px;
+  text-align: center;
+  font-family: "carm";
+  margin-bottom: 8px;
+}
+.about-text5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
+.ELI {
+  width: 358px;
+  height: 527px;
+  border-width: 32px;
+  border-color: #191970;
+  border-radius: 60px;
+  object-fit: cover;
+  transition: .3s;
+}
+.ELI:hover{
+  transform: scale(1.02);
+}
+.about-testimonial1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.about-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.about-text6 {
+  font-size: 25px;
+  max-width: 600px;
+  margin-top: 16px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: 200;
+  padding-left: 32px;
+  margin-bottom: 32px;
+  padding-right: 32px;
+}
+.about-container2 {
+  border: 2px dashed #78787866;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media(max-width: 991px) {
+  .about-testimonial {
+    height: auto;
+  }
+  .about-text {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 60px;
+  }
+  .about-text5 {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .ELI {
+    height: 421px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+  }
+  .about-text6 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+}
+@media(max-width: 479px) {
+  .about-testimonial {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  .ELI {
+    width: 279px;
+  }
+  .about-text6 {
+    width: auto;
+  }
+  
+}
