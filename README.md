@@ -5,8 +5,7 @@ Group Names:
 ~ Devin Austin
 
 ~ Treymarion Collier
-
-____
+___
 __
 
 School: 
