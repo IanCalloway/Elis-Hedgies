@@ -1,9 +1,11 @@
-Names:
+Group Names:
+
 Ian Calloway
 Devin Austin
 Treymarion Collier
 
 School: 
+
 Chester County High School
 
 Ian Calloway About:
